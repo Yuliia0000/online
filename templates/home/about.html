@@ -1,0 +1,28 @@
+{% extends 'layouts/base.html' %}
+
+{% block content %}
+        <div id="breadcrumb" class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="breadcrumb-header">{{ page_title }}</h3>
+						<ul class="breadcrumb-tree">
+							<li><a href="/home">Home</a></li>
+							<li class="active">About</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<div class="section">
+			<div class="container">
+				<div class="row text-center">
+					<h3 style="color: darkcyan">Контент сторінки про сайт</h3>
+				</div>
+			</div>
+		</div>
+{% endblock content %}
